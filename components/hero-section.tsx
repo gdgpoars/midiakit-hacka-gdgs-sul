@@ -24,7 +24,7 @@ export function HeroSection() {
         {/* Logo */}
         <div className="mb-10 flex justify-center">
           <Image
-            src="/images/logo-hacka.png"
+            src="/images/logo/logo-hacka.png"
             alt="Logo Hacka GDGs Sul - Cloud and Impacto"
             width={220}
             height={220}

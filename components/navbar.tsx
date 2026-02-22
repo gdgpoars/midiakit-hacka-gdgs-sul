@@ -32,7 +32,7 @@ export function Navbar() {
         {/* Logo */}
         <a href="#" className="flex items-center gap-3">
           <Image
-            src="/images/logo-hacka.png"
+            src="/images/logo/logo-hacka.png"
             alt="Hacka GDGs Sul"
             width={36}
             height={36}
