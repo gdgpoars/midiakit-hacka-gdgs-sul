@@ -9,12 +9,10 @@ export function CtaSection() {
       <div className="relative z-10 mx-auto max-w-3xl text-center">
         {/* Logo */}
         <div className="mb-8 flex justify-center">
-         <img
+        <img
           src="/images/logo/logo-hacka.png"
           alt="Logo Hacka GDGs Sul"
-          width={100}
-          height={100}
-          className="opacity-80"
+          style={{ width: '100px', height: 'auto' }}
         />
         </div>
 
