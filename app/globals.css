@@ -25,7 +25,6 @@
   --input: #e5e5e5;
   --ring: #2876CC;
   --radius: 0.75rem;
-
   --hacka-blue: #2876CC;
   --hacka-yellow: #F3B413;
   --hacka-green: #3EA853;
@@ -37,7 +36,7 @@
 
 @theme inline {
   --font-sans: 'Google Sans', 'Google Sans Display', 'Inter', sans-serif;
-  --font-mono: 'Geist Mono', 'Geist Mono Fallback', monospace;
+  --font-mono: 'Geist Mono', monospace;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -61,7 +60,6 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
-
   --color-hacka-blue: var(--hacka-blue);
   --color-hacka-yellow: var(--hacka-yellow);
   --color-hacka-green: var(--hacka-green);
