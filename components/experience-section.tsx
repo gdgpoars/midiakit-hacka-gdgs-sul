@@ -9,29 +9,29 @@ import {
 const experiences = [
   {
     icon: Coffee,
-    title: "Coffee Break",
-    description: "Manha e tarde, para networking e recarregar as energias.",
+    title: "Coffee break",
+    description: "Manhã e tarde, para networking e recarregar as energias.",
   },
   {
     icon: MessagesSquare,
-    title: "Mentorias Estruturadas",
-    description: "2 rodadas com mentores especializados para guiar as equipes.",
+    title: "Mentorias estruturadas",
+    description: "Rodadas com mentores especializados para guiar as equipes.",
   },
   {
     icon: Presentation,
     title: "Pitch Final",
-    description: "Apresentacao para banca tecnica com feedback qualificado.",
+    description: "Apresentação para banca técnica com feedback qualificado.",
   },
   {
     icon: Camera,
-    title: "Registro Audiovisual",
-    description: "Fotos e video profissional para aftermovie e redes sociais.",
+    title: "Registro audiovisual",
+    description: "Fotos e vídeos profissionais para aftermovie e redes sociais.",
   },
   {
     icon: Award,
-    title: "Certificacao Digital",
+    title: "Certificação",
     description:
-      "Certificados emitidos para todos os participantes e mentores.",
+      "Certificados emitidos e entregues para todos os participantes e mentores.",
   },
 ]
 
@@ -42,17 +42,17 @@ export function ExperienceSection() {
         {/* Header */}
         <div className="mb-16 text-center">
           <span className="inline-block rounded-full bg-hacka-blue/10 px-4 py-1.5 text-sm font-semibold text-hacka-blue">
-            Experiencia do Evento
+            Experiência no evento
           </span>
           <h2
             className="mt-4 text-3xl font-bold tracking-tight text-hacka-black md:text-4xl lg:text-5xl text-balance"
             style={{ fontFamily: "var(--font-space-grotesk)" }}
           >
-            Uma experiencia completa
+            Uma experiência completa
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground leading-relaxed">
-            Cada detalhe foi pensado para garantir uma experiencia profissional e
-            memoravel para participantes e patrocinadores.
+            Cada detalhe foi pensado para garantir uma experiência profissional e
+            memorável para participantes e patrocinadores.
           </p>
         </div>
 
@@ -86,11 +86,10 @@ export function ExperienceSection() {
             className="mb-2 text-lg font-bold text-hacka-black"
             style={{ fontFamily: "var(--font-space-grotesk)" }}
           >
-            Kit do Participante
+            Kit do participante
           </h3>
           <p className="text-muted-foreground">
-            Cracha personalizado + adesivos exclusivos + brindes dos
-            patrocinadores
+            Caixa surpresa preparada com carinho e dedicação.
           </p>
         </div>
       </div>

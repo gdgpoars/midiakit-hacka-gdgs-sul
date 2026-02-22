@@ -4,14 +4,14 @@ const rows = [
   { feature: "Logo na landing page", gold: true, silver: true },
   { feature: "Logo no backdrop", gold: true, silver: true },
   { feature: "Logo nos certificados", gold: true, silver: true },
-  { feature: "Inclusao no aftermovie", gold: true, silver: true },
-  { feature: "Mencao na abertura e encerramento", gold: true, silver: true },
+  { feature: "Inclusão no aftermovie", gold: true, silver: true },
+  { feature: "Menção na abertura e encerramento", gold: true, silver: true },
   { feature: "Post de agradecimento nas redes", gold: true, silver: true },
-  { feature: "Mailing dos participantes (opt-in)", gold: true, silver: true },
-  { feature: "Relatorio pos-evento", gold: true, silver: true },
-  { feature: "Logo em destaque (maior proporcao)", gold: true, silver: false },
+  { feature: "Mailing dos participantes (de acordo com opt-in)", gold: true, silver: true },
+  { feature: "Relatório pós-evento", gold: true, silver: true },
+  { feature: "Logo em destaque (maior proporção)", gold: true, silver: false },
   {
-    feature: "Espaco de fala na abertura/encerramento",
+    feature: "Espaço de fala na abertura/encerramento",
     gold: true,
     silver: false,
   },
@@ -21,11 +21,11 @@ const rows = [
   { feature: "Integrante na banca avaliadora", gold: true, silver: false },
   { feature: "Brindes no kit do participante", gold: true, silver: false },
   {
-    feature: "Perguntas no formulario de inscricao",
-    gold: "Ate 2",
+    feature: "Perguntas no formulário de inscrição",
+    gold: "Até 2",
     silver: false,
   },
-  { feature: "Entrevista coletiva p/ Instagram", gold: false, silver: true },
+  { feature: "Entrevista coletiva para redes sociais", gold: false, silver: true },
 ]
 
 function CellValue({ value }: { value: boolean | string }) {

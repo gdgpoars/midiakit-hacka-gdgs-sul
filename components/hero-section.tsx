@@ -43,8 +43,8 @@ export function HeroSection() {
 
         {/* Subtitle */}
         <p className="mx-auto mt-6 max-w-2xl text-lg text-hacka-white/70 leading-relaxed md:text-xl">
-          Maratona de inovacao reunindo talentos diversos para desenvolver
-          solucoes escalaveis utilizando recursos de Cloud.
+          Maratona de inovação reunindo talentos diversos para desenvolver
+          soluções escaláveis utilizando recursos de Cloud.
         </p>
 
         {/* Info badges */}
@@ -58,16 +58,16 @@ export function HeroSection() {
         {/* CTAs */}
         <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="#cotas"
-            className="inline-flex items-center justify-center rounded-lg bg-hacka-yellow px-8 py-4 text-base font-semibold text-hacka-black transition-all hover:brightness-110 hover:scale-105"
-          >
-            Quero ser patrocinador
-          </a>
-          <a
             href="#sobre"
             className="inline-flex items-center justify-center rounded-lg border border-hacka-white/20 bg-hacka-white/5 px-8 py-4 text-base font-semibold text-hacka-white transition-all hover:bg-hacka-white/10"
           >
             Conhecer o evento
+          </a>
+          <a
+            href="#cotas"
+            className="inline-flex items-center justify-center rounded-lg bg-hacka-yellow px-8 py-4 text-base font-semibold text-hacka-black transition-all hover:brightness-110 hover:scale-105"
+          >
+            Quero patrocinar
           </a>
         </div>
 

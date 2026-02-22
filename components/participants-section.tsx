@@ -35,7 +35,7 @@ const profiles = [
   },
   {
     icon: Briefcase,
-    label: "Negocios",
+    label: "Negócios",
     color: "bg-hacka-green/10 text-hacka-green",
   },
 ]
@@ -47,7 +47,7 @@ export function ParticipantsSection() {
         {/* Header */}
         <div className="mb-16 text-center">
           <span className="inline-block rounded-full bg-hacka-blue/10 px-4 py-1.5 text-sm font-semibold text-hacka-blue">
-            Perfil dos Participantes
+            Perfil dos participantes
           </span>
           <h2
             className="mt-4 text-3xl font-bold tracking-tight text-hacka-black md:text-4xl lg:text-5xl text-balance"
@@ -56,7 +56,7 @@ export function ParticipantsSection() {
             48 talentos selecionados
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground leading-relaxed">
-            Equipes formadas estrategicamente para garantir equilibrio tecnico,
+            Equipes formadas estrategicamente para garantir equilíbrio técnico,
             diversidade e alto potencial de entrega.
           </p>
         </div>
@@ -89,15 +89,15 @@ export function ParticipantsSection() {
             Subcategorias do Desafio
           </h3>
           <p className="mb-6 text-muted-foreground leading-relaxed">
-            Solucoes escalaveis utilizando Cloud para resolver problemas reais
-            com uso obrigatorio de ao menos um recurso da Magalu Cloud.
+            Soluções escaláveis utilizando Cloud para resolver problemas reais
+            com uso obrigatório de ao menos um recurso da Magalu Cloud.
           </p>
           <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-4">
             {[
-              "Inclusao Digital",
-              "Impacto Social",
-              "Eficiencia para PMEs",
-              "Educacao",
+              "Inclusão digital",
+              "Impacto social",
+              "Eficiência para PMEs",
+              "Educação",
             ].map((category) => (
               <div
                 key={category}

@@ -7,42 +7,42 @@ import {
 } from "lucide-react"
 
 const stats = [
-  { value: "8", label: "Prototipos funcionais" },
+  { value: "8", label: "Protótipos funcionais" },
   { value: "8", label: "Deploys ativos" },
   { value: "48", label: "Talentos selecionados" },
-  { value: "10h+", label: "Formacao pratica" },
+  { value: "10h+", label: "Formação prática" },
 ]
 
 const impacts = [
   {
     icon: Target,
-    title: "Geracao de Leads Tecnicos",
+    title: "Geração de leads técnicos qualificados",
     description:
-      "Acesso a profissionais qualificados que demonstram habilidades reais em ambiente de alta pressao.",
+      "Acesso a profissionais qualificados que demonstram habilidades reais em ambiente de alta pressão.",
   },
   {
     icon: Code,
-    title: "Formacao Pratica Intensiva",
+    title: "Formação prática intensiva",
     description:
       "Participantes passam por treinamento hands-on com tecnologias cloud de mercado.",
   },
   {
     icon: CloudUpload,
-    title: "Deploy Real e Funcional",
+    title: "Deploy real e funcional",
     description:
-      "Cada equipe entrega um prototipo com deploy ativo, demonstrando capacidade tecnica real.",
+      "Cada equipe entrega um protótipo com deploy ativo, demonstrando capacidade técnica real.",
   },
   {
     icon: Database,
-    title: "Banco de Talentos",
+    title: "Banco de talentos",
     description:
-      "Banco estruturado com perfil tecnico de cada participante para futuras oportunidades.",
+      "Banco estruturado com perfil técnico de cada participante para futuras oportunidades.",
   },
   {
     icon: FileBarChart,
-    title: "Relatorio Pos-Evento",
+    title: "Relatório pós-evento",
     description:
-      "Metricas de engajamento, perfil tecnico consolidado e insights para patrocinadores.",
+      "Métricas de engajamento, perfil técnico consolidado e insights para patrocinadores.",
   },
 ]
 
@@ -62,8 +62,8 @@ export function ImpactSection() {
             Resultados que geram valor
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground leading-relaxed">
-            O Hacka GDGs Sul entrega mais do que exposicao de marca. Cada edicao
-            gera resultados concretos e mensuraveis.
+            O Hacka GDGs Sul entrega mais do que exposição de marca. Cada edição
+            gera resultados concretos e mensuráveis.
           </p>
         </div>
 

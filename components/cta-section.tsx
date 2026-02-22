@@ -22,7 +22,7 @@ export function CtaSection() {
           className="text-3xl font-bold tracking-tight text-hacka-white md:text-4xl lg:text-5xl text-balance leading-tight"
           style={{ fontFamily: "var(--font-space-grotesk)" }}
         >
-          Empresas que investem em comunidade nao apenas recrutam talentos —{" "}
+          Empresas que investem em comunidade não apenas recrutam talentos -{" "}
           <span className="text-hacka-blue">
             constroem o futuro da tecnologia local.
           </span>
@@ -30,8 +30,8 @@ export function CtaSection() {
 
         <p className="mx-auto mt-6 max-w-xl text-lg text-hacka-white/60 leading-relaxed">
           O investimento dos patrocinadores permite acessibilidade de
-          ingressos, melhor estrutura, premiacao mais atrativa e uma
-          experiencia mais profissional.
+          ingressos, melhor estrutura, premiação mais atrativa e uma
+          experiência mais profissional.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -39,7 +39,7 @@ export function CtaSection() {
             href="mailto:contato@hacka-gdgs-sul.com"
             className="inline-flex items-center justify-center rounded-lg bg-hacka-yellow px-10 py-4 text-base font-bold text-hacka-black transition-all hover:brightness-110 hover:scale-105"
           >
-            Fale com a organizacao
+            Fale com a organização
           </a>
           <a
             href="#cotas"
@@ -51,7 +51,7 @@ export function CtaSection() {
 
         {/* Organizadores */}
         <div className="mt-16 border-t border-hacka-white/10 pt-8">
-          <p className="text-sm text-hacka-white/40 mb-2">Realizacao</p>
+          <p className="text-sm text-hacka-white/40 mb-2">Realização</p>
           <p className="text-sm font-medium text-hacka-white/60">
             GDG Porto Alegre + GDG Caxias do Sul
           </p>

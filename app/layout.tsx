@@ -3,12 +3,12 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Hacka GDGs Sul | Cloud & Impacto - Media Kit',
-  description: 'Maratona de inovacao com foco em Cloud & Impacto. 48 participantes, 8 equipes, deploy obrigatorio. Seja patrocinador do Hacka GDGs Sul.',
+  title: 'Hacka GDGs Sul | Cloud & Impacto - Mídia Kit',
+  description: 'Maratona de inovação com foco em Cloud & Impacto. 48 participantes, 8 equipes, deploy obrigatorio. Seja patrocinador do Hacka GDGs Sul.',
   keywords: ['hackathon', 'cloud', 'GDG', 'Porto Alegre', 'tecnologia', 'inovacao', 'patrocinio'],
   openGraph: {
     title: 'Hacka GDGs Sul | Cloud & Impacto',
-    description: 'Maratona de inovacao reunindo talentos diversos para desenvolver solucoes escalaveis utilizando Cloud.',
+    description: 'Maratona de inovação reunindo talentos diversos para desenvolver soluções escaláveis utilizando Cloud.',
     type: 'website',
   },
 }

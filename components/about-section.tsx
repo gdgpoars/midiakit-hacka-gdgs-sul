@@ -3,25 +3,25 @@ import { Cloud, GraduationCap, Users, Handshake } from "lucide-react"
 const features = [
   {
     icon: Users,
-    title: "Ambiente Inclusivo",
+    title: "Ambiente inclusivo",
     description:
-      "Espaco diverso que acolhe talentos de diferentes backgrounds e niveis de experiencia.",
+      "Espaço diverso que acolhe talentos de diferentes backgrounds e níveis de experiência.",
   },
   {
     icon: GraduationCap,
-    title: "Formacao Pratica",
+    title: "Formação prática",
     description:
-      "Aprendizado mao na massa com tecnologias cloud utilizadas pelo mercado.",
+      "Aprendizado mão na massa com tecnologias cloud utilizadas pelo mercado.",
   },
   {
     icon: Cloud,
-    title: "Deploy Obrigatorio",
+    title: "Deploy obrigatório",
     description:
-      "Todos os projetos devem ser entregues com deploy funcional e demonstracao executavel.",
+      "Todos os projetos devem ser entregues com deploy funcional e demonstração executável.",
   },
   {
     icon: Handshake,
-    title: "Conexao com o Mercado",
+    title: "Conexão com o mercado",
     description:
       "Plataforma que conecta talentos emergentes a empresas e oportunidades reais.",
   },
@@ -34,7 +34,7 @@ export function AboutSection() {
         {/* Section header */}
         <div className="mb-16 text-center">
           <span className="inline-block rounded-full bg-hacka-blue/10 px-4 py-1.5 text-sm font-semibold text-hacka-blue">
-            Sobre o Evento
+            Sobre o evento
           </span>
           <h2
             className="mt-4 text-3xl font-bold tracking-tight text-hacka-black md:text-4xl lg:text-5xl text-balance"
@@ -43,9 +43,9 @@ export function AboutSection() {
             Mais do que um hackathon
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground leading-relaxed">
-            O Hacka GDGs Sul e uma maratona de inovacao com foco em{" "}
+            O Hacka GDGs Sul e uma maratona de inovação com foco em{" "}
             <strong className="text-hacka-blue">Cloud & Impacto</strong>,
-            reunindo talentos diversos para desenvolver solucoes escalaveis.
+            reunindo talentos diversos para desenvolver soluções escaláveis.
           </p>
         </div>
 
@@ -74,26 +74,26 @@ export function AboutSection() {
           <div className="rounded-xl border border-border bg-card p-8">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-hacka-blue/10 px-4 py-1.5 text-sm font-semibold text-hacka-blue">
               <span className="h-2 w-2 rounded-full bg-hacka-blue" />
-              Sexta-feira — Online
+              Sexta-feira — online
             </div>
             <h3
               className="mb-4 text-xl font-bold text-hacka-black"
               style={{ fontFamily: "var(--font-space-grotesk)" }}
             >
-              Abertura e Preparacao
+              Abertura e preparação
             </h3>
             <ul className="space-y-3 text-muted-foreground">
               <li className="flex items-start gap-3">
                 <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hacka-blue" />
-                Apresentacao do desafio e subcategorias
+                Apresentação do desafio e subcategorias
               </li>
               <li className="flex items-start gap-3">
                 <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hacka-blue" />
-                Regras, criterios e orientacao tecnica
+                Regras, critérios e orientação técnica
               </li>
               <li className="flex items-start gap-3">
                 <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hacka-blue" />
-                Configuracao da plataforma Magalu Cloud
+                Configuração da plataforma Magalu Cloud
               </li>
             </ul>
           </div>
@@ -101,13 +101,13 @@ export function AboutSection() {
           <div className="rounded-xl border border-border bg-card p-8">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-hacka-yellow/15 px-4 py-1.5 text-sm font-semibold text-hacka-black">
               <span className="h-2 w-2 rounded-full bg-hacka-yellow" />
-              Sabado — Presencial (08h-18h)
+              Sábado — presencial (08h-18h)
             </div>
             <h3
               className="mb-4 text-xl font-bold text-hacka-black"
               style={{ fontFamily: "var(--font-space-grotesk)" }}
             >
-              Hackathon Intensivo
+              Hackathon intensivo
             </h3>
             <ul className="space-y-3 text-muted-foreground">
               <li className="flex items-start gap-3">
@@ -116,11 +116,11 @@ export function AboutSection() {
               </li>
               <li className="flex items-start gap-3">
                 <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hacka-yellow" />
-                2 rodadas estruturadas de mentoria
+                Rodadas estruturadas de mentoria
               </li>
               <li className="flex items-start gap-3">
                 <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hacka-yellow" />
-                Pitches avaliados por banca tecnica
+                Pitches avaliados por banca técnica
               </li>
             </ul>
           </div>

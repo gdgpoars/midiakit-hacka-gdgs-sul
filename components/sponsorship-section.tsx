@@ -1,31 +1,31 @@
 import { Check } from "lucide-react"
 
 const goldFeatures = [
-  "Patrocinador Oficial (Powered by)",
-  "Logo em destaque (maior proporcao) em todas as artes",
-  "Mencao nas aberturas (online e presencial)",
-  "Espaco de fala de ate 2 min na abertura e encerramento",
+  "Patrocinador oficial (Powered by)",
+  "Logo em destaque (maior proporção) em todas as artes",
+  "Menção nas aberturas (online e presencial)",
+  "Espaço de fala de até 2 min na abertura e encerramento",
   "2 ingressos cortesia para participantes",
   "2 ingressos para representantes da empresa",
-  "Indicacao de 1 mentor oficial",
+  "Indicação de 1 mentor oficial",
   "1 integrante na banca avaliadora",
-  "Inclusao de brindes no kit",
-  "Mailing dos participantes (opt-in LGPD)",
-  "Ate 2 perguntas no formulario de inscricao",
-  "Relatorio pos-evento completo",
+  "Inclusão de brindes no kit",
+  "Mailing dos participantes (de acordo com opt-in)",
+  "Inclusão de até 2 perguntas no formulário de inscrição",
+  "Relatório pós-evento completo",
 ]
 
 const silverFeatures = [
-  "Empresa Apoiadora do evento",
+  "Empresa apoiadora do evento",
   "Logo na landing page, backdrop e certificados",
-  "Inclusao no aftermovie",
-  "Mencao na abertura e encerramento",
+  "Inclusão no aftermovie",
+  "Menção na abertura e encerramento",
   "Post de agradecimento nas redes",
   "1 ingresso cortesia para participante",
   "1 ingresso para representante",
-  "Mailing dos participantes (opt-in LGPD)",
-  "Inclusao no relatorio pos-evento",
-  "Entrevista coletiva para Instagram do GDG",
+  "Mailing dos participantes (de acordo com opt-in)",
+  "Inclusão no relatório pós-evento",
+  "Entrevista coletiva para redes sociais",
 ]
 
 export function SponsorshipSection() {
@@ -35,17 +35,17 @@ export function SponsorshipSection() {
         {/* Header */}
         <div className="mb-16 text-center">
           <span className="inline-block rounded-full bg-hacka-yellow/15 px-4 py-1.5 text-sm font-semibold text-hacka-yellow">
-            Cotas de Patrocinio
+            Cotas de patrocínio
           </span>
           <h2
             className="mt-4 text-3xl font-bold tracking-tight text-hacka-white md:text-4xl lg:text-5xl text-balance"
             style={{ fontFamily: "var(--font-space-grotesk)" }}
           >
-            Invista no ecossistema tech
+            Invista no ecossistema tech!
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-hacka-white/60 leading-relaxed">
-            Empresas que apoiam o evento nao apenas ganham visibilidade — elas
-            participam da construcao do ecossistema tech da regiao.
+            Empresas que apoiam o evento não apenas ganham visibilidade — elas
+            participam da construção do ecossistema tech da região.
           </p>
         </div>
 
@@ -56,7 +56,7 @@ export function SponsorshipSection() {
             {/* Badge */}
             <div className="absolute -top-4 left-8">
               <span className="rounded-full bg-hacka-yellow px-4 py-1.5 text-sm font-bold text-hacka-black">
-                Mais Estrategica
+                Mais estratégica
               </span>
             </div>
 
@@ -72,7 +72,7 @@ export function SponsorshipSection() {
                   R$ 1.000
                 </span>
               </div>
-              <p className="mt-1 text-sm text-hacka-white/50">1 vaga disponivel</p>
+              <p className="mt-1 text-sm text-hacka-white/50">1 vaga disponível</p>
             </div>
 
             <div className="mb-8 h-px bg-hacka-white/10" />
@@ -102,7 +102,7 @@ export function SponsorshipSection() {
             {/* Badge */}
             <div className="absolute -top-4 left-8">
               <span className="rounded-full bg-hacka-white/10 px-4 py-1.5 text-sm font-bold text-hacka-white">
-                Otimo custo-beneficio
+                Ótimo custo-benefício
               </span>
             </div>
 
@@ -118,7 +118,7 @@ export function SponsorshipSection() {
                   R$ 600
                 </span>
               </div>
-              <p className="mt-1 text-sm text-hacka-white/50">2 vagas disponiveis</p>
+              <p className="mt-1 text-sm text-hacka-white/50">2 vagas disponíveis</p>
             </div>
 
             <div className="mb-8 h-px bg-hacka-white/10" />
