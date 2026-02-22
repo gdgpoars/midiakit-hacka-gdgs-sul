@@ -9,13 +9,13 @@ export function CtaSection() {
       <div className="relative z-10 mx-auto max-w-3xl text-center">
         {/* Logo */}
         <div className="mb-8 flex justify-center">
-          <Image
-            src="/images/logo/logo-hacka.png"
-            alt="Logo Hacka GDGs Sul"
-            width={100}
-            height={100}
-            className="opacity-80"
-          />
+         <img
+          src="/images/logo/logo-hacka.png"
+          alt="Logo Hacka GDGs Sul"
+          width={100}
+          height={100}
+          className="opacity-80"
+        />
         </div>
 
         <h2
