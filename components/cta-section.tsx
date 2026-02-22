@@ -10,7 +10,7 @@ export function CtaSection() {
         {/* Logo */}
         <div className="mb-8 flex justify-center">
           <Image
-            src="/images/logo-hacka.png"
+            src="/images/logo/logo-hacka.png"
             alt="Logo Hacka GDGs Sul"
             width={100}
             height={100}
@@ -36,7 +36,7 @@ export function CtaSection() {
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="mailto:contato@hacka-gdgs-sul.com"
+            href="mailto:gdgpoars@gmail.com"
             className="inline-flex items-center justify-center rounded-lg bg-hacka-yellow px-10 py-4 text-base font-bold text-hacka-black transition-all hover:brightness-110 hover:scale-105"
           >
             Fale com a organização
