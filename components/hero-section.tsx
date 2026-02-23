@@ -73,8 +73,9 @@ export function HeroSection() {
 
         {/* Powered by */}
         <p className="mt-16 text-sm text-hacka-white/40">
-          Powered by <span className="text-hacka-white/60 font-medium">Faculdade Dom Bosco</span> &bull;{" "}
-          <span className="text-hacka-white/60 font-medium">Magalu Cloud</span>
+Powered by <span className="text-hacka-white/60 font-medium">Faculdade Dom Bosco</span> &bull;{" "}
+<span className="text-hacka-white/60 font-medium">Magalu Cloud</span> &bull;{" "}
+<span className="text-hacka-yellow font-medium">SUA EMPRESA!</span>
         </p>
       </div>
     </section>
