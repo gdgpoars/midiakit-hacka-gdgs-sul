@@ -101,7 +101,7 @@ export function AboutSection() {
           <div className="rounded-xl border border-border bg-card p-8">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-hacka-yellow/15 px-4 py-1.5 text-sm font-semibold text-hacka-black">
               <span className="h-2 w-2 rounded-full bg-hacka-yellow" />
-              Sábado — presencial (08h-18h)
+              Agosto, 2026 | Sábado — presencial (08h-18h)
             </div>
             <h3
               className="mb-4 text-xl font-bold text-hacka-black"
