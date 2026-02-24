@@ -50,7 +50,7 @@ export function HeroSection() {
         {/* Info badges */}
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
           <InfoBadge icon={<MapPin className="h-4 w-4" />} text="Faculdade Dom Bosco - Porto Alegre/RS" />
-          <InfoBadge icon={<Calendar className="h-4 w-4" />} text="Sexta (online) + Sabado (presencial)" />
+          <InfoBadge icon={<Calendar className="h-4 w-4" />} text="Data a definir em Agosto/2026" />
           <InfoBadge icon={<Users className="h-4 w-4" />} text="48 participantes selecionados" />
           <InfoBadge icon={<Rocket className="h-4 w-4" />} text="8 equipes multidisciplinares" />
         </div>
