@@ -70,59 +70,66 @@ export function AboutSection() {
         </div>
 
         {/* Format timeline */}
-        <div className="mt-20 grid gap-8 md:grid-cols-2">
-          <div className="rounded-xl border border-border bg-card p-8">
-            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-hacka-blue/10 px-4 py-1.5 text-sm font-semibold text-hacka-blue">
-              <span className="h-2 w-2 rounded-full bg-hacka-blue" />
-              Sexta-feira — online
-            </div>
-            <h3
-              className="mb-4 text-xl font-bold text-hacka-black"
-              style={{ fontFamily: "var(--font-space-grotesk)" }}
-            >
-              Abertura e preparação
-            </h3>
-            <ul className="space-y-3 text-muted-foreground">
-              <li className="flex items-start gap-3">
-                <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hacka-blue" />
-                Apresentação do desafio e subcategorias
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hacka-blue" />
-                Regras, critérios e orientação técnica
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hacka-blue" />
-                Configuração da plataforma Magalu Cloud
-              </li>
-            </ul>
+        <div className="mt-20">
+          <div className="mb-6 flex items-center justify-center gap-2">
+            <span className="rounded-full border border-border bg-card px-4 py-1.5 text-sm font-semibold text-muted-foreground">
+              📅 Previsão: Agosto de 2026
+            </span>
           </div>
-
-          <div className="rounded-xl border border-border bg-card p-8">
-            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-hacka-yellow/15 px-4 py-1.5 text-sm font-semibold text-hacka-black">
-              <span className="h-2 w-2 rounded-full bg-hacka-yellow" />
-              Agosto, 2026 | Sábado — presencial (08h-18h)
+          <div className="grid gap-8 md:grid-cols-2">
+            <div className="rounded-xl border border-border bg-card p-8">
+              <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-hacka-blue/10 px-4 py-1.5 text-sm font-semibold text-hacka-blue">
+                <span className="h-2 w-2 rounded-full bg-hacka-blue" />
+                Sexta-feira — online
+              </div>
+              <h3
+                className="mb-4 text-xl font-bold text-hacka-black"
+                style={{ fontFamily: "var(--font-space-grotesk)" }}
+              >
+                Abertura e preparação
+              </h3>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hacka-blue" />
+                  Apresentação do desafio e subcategorias
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hacka-blue" />
+                  Regras, critérios e orientação técnica
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hacka-blue" />
+                  Configuração da plataforma Magalu Cloud
+                </li>
+              </ul>
             </div>
-            <h3
-              className="mb-4 text-xl font-bold text-hacka-black"
-              style={{ fontFamily: "var(--font-space-grotesk)" }}
-            >
-              Hackathon intensivo
-            </h3>
-            <ul className="space-y-3 text-muted-foreground">
-              <li className="flex items-start gap-3">
-                <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hacka-yellow" />
-                8 horas intensivas de desenvolvimento
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hacka-yellow" />
-                Rodadas estruturadas de mentoria
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hacka-yellow" />
-                Pitches avaliados por banca técnica
-              </li>
-            </ul>
+
+            <div className="rounded-xl border border-border bg-card p-8">
+              <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-hacka-yellow/15 px-4 py-1.5 text-sm font-semibold text-hacka-black">
+                <span className="h-2 w-2 rounded-full bg-hacka-yellow" />
+                Sábado — presencial (08h-18h)
+              </div>
+              <h3
+                className="mb-4 text-xl font-bold text-hacka-black"
+                style={{ fontFamily: "var(--font-space-grotesk)" }}
+              >
+                Hackathon intensivo
+              </h3>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-3">
+                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hacka-yellow" />
+                  8 horas intensivas de desenvolvimento
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hacka-yellow" />
+                  Rodadas estruturadas de mentoria
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-hacka-yellow" />
+                  Pitches avaliados por banca técnica
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
