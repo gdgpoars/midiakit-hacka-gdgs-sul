@@ -1,7 +1,6 @@
 import { Check } from "lucide-react"
 
 const goldFeatures = [
-  "Patrocinador oficial (Powered by)",
   "Logo em destaque (maior proporção) em todas as artes",
   "Menção nas aberturas (online e presencial)",
   "Espaço de fala de até 2 min na abertura e encerramento",
@@ -16,7 +15,6 @@ const goldFeatures = [
 ]
 
 const silverFeatures = [
-  "Empresa apoiadora do evento",
   "Logo na landing page, backdrop e certificados",
   "Inclusão no aftermovie",
   "Menção na abertura e encerramento",
@@ -72,7 +70,7 @@ export function SponsorshipSection() {
                   R$ 1.000
                 </span>
               </div>
-              <p className="mt-1 text-sm text-hacka-white/50">1 vaga disponível</p>
+              <p className="mt-1 text-sm text-hacka-white/50">1 vaga exclusiva disponível</p>
             </div>
 
             <div className="mb-8 h-px bg-hacka-white/10" />
@@ -118,7 +116,7 @@ export function SponsorshipSection() {
                   R$ 600
                 </span>
               </div>
-              <p className="mt-1 text-sm text-hacka-white/50">2 vagas disponíveis</p>
+              <p className="mt-1 text-sm text-hacka-white/50">até 4 vagas disponíveis</p>
             </div>
 
             <div className="mb-8 h-px bg-hacka-white/10" />
