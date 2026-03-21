@@ -73,7 +73,7 @@ export function AboutSection() {
         <div className="mt-20">
           <div className="mb-6 flex items-center justify-center gap-2">
             <span className="rounded-full border border-border bg-card px-4 py-1.5 text-sm font-semibold text-muted-foreground">
-              📅 Previsão: Agosto de 2026
+              📅 12 de setembro de 2026
             </span>
           </div>
           <div className="grid gap-8 md:grid-cols-2">
